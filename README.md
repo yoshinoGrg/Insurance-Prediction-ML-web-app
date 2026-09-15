@@ -6,7 +6,7 @@ A Machine Learning web app that predicts whether a customer is likely to purchas
 
 
 ## 🔗 Live Demo
-[https://insurance-prediction-ml-web-appgit-vyzbopodb6quwmcxgrikrg.streamlit.app/#health-insurance-purchase-prediction]
+[DEMO](https://insurance-prediction-ml-web-appgit-vyzbopodb6quwmcxgrikrg.streamlit.app/#health-insurance-purchase-prediction)
 
 ## 📌 Overview
 This project uses customer data (age, previous insurance status, etc.) to train a Logistic Regression classifier that predicts whether a customer will buy insurance. The model is wrapped in an interactive Streamlit web interface where users can input customer details and get real-time predictions.
