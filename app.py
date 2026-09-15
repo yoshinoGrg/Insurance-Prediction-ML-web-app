@@ -250,8 +250,9 @@ with st.form("prediction_form"):
     submitted = st.form_submit_button("Predict")
 
 if submitted:
-    prediction = model.predict([user_input])[0]
-    proba = model.predict_proba([user_input])[0]
+    input_df = pd.DataFrame([user_input], columns=X.columns)
+    prediction = model.predict(input_df)[0]
+    proba = model.predict_proba(input_df)[0]
 
     if prediction == 0:
         st.markdown(f"""
