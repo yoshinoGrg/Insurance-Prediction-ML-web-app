@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 st.set_page_config(page_title="Insurance Prediction", page_icon="🛡️", layout="centered")
 
 st.title("🛡️ Health Insurance Purchase Prediction")
-image_url = "https://i.pinimg.com/1200x/4a/93/24/4a9324b9434d9697aedffe65c6213e4c.jpg"
+image_url = "https://i.pinimg.com/736x/b6/ca/86/b6ca86093ea14fc429f1d2eb9d19170b.jpg"
 st.image(image_url)
 
 # ---------- Load & Prepare Data ----------
